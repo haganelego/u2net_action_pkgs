@@ -4,21 +4,12 @@ import sys
 sys.path.remove('/opt/ros/melodic/lib/python2.7/dist-packages')
 sys.path.append('/opt/ros/melodic/lib/python2.7/dist-packages')
 
-import cv2
 import os
-import math
-import pickle as pkl
-
-import torch
-import torchvision
-import PIL
-
 import rospy
 import rospkg
 import actionlib
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
-from cv_bridge.boost.cv_bridge_boost import getCvType
 
 import rospkg
 rospack = rospkg.RosPack()
