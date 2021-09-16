@@ -1,0 +1,3 @@
+[submodule "u2net_action_pkg/u2net"]
+	path = u2net_action_pkg/u2net
+	url = git@github.com:haganelego/U-2-Net.git
