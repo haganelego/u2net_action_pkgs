@@ -1,0 +1,8 @@
+# goal
+sensor_msgs/Image bgr_img
+---
+# result
+sensor_msgs/Image mask_img
+---
+# feedback
+bool feedback
