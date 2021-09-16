@@ -197,3 +197,4 @@ CATKIN_IGNORE
 
 # user add
 .vscode/
+*.code-workspace
